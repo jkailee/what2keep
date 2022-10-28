@@ -12,6 +12,8 @@ import Settings from "./components/Settings";
 import Stats from "./components/Stats";
 import StuffPage from "./components/StuffPage";
 import ViewItem from "./components/ViewItem";
+import React from "react";
+
 
 const Stack = createNativeStackNavigator();
 

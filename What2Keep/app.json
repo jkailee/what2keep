@@ -18,7 +18,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.307What2Keep.What2Keep",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
