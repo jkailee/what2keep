@@ -1,6 +1,8 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import { NavigationContainer, StackActions } from "@react-navigation/native";
+//import { StatusBar } from "expo-status-bar";
+import { StyleSheet /*, Text, View */ } from "react-native";
+import {
+  NavigationContainer /*, StackActions */,
+} from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Launch from "./components/Launch";
 import Home from "./components/Home";
@@ -12,6 +14,7 @@ import Settings from "./components/Settings";
 import Stats from "./components/Stats";
 import StuffPage from "./components/StuffPage";
 import ViewItem from "./components/ViewItem";
+import React from "react";
 
 const Stack = createNativeStackNavigator();
 
@@ -33,12 +36,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
