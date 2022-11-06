@@ -16,7 +16,7 @@ export default function Register({ navigation }) {
       <Text>Re-Enter Password:</Text>
       <TextInput style={styles.input}/>
       <Button
-        title="GOTO Home"
+        title="CREATE ACCOUNT"
         onPress={() => {
           navigation.navigate("Home");
         }}
