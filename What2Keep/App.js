@@ -15,10 +15,12 @@ import Stats from "./components/Stats";
 import StuffPage from "./components/StuffPage";
 import ViewItem from "./components/ViewItem";
 import React from "react";
+import { Button } from "react-native";
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
+  const handlePress = () => false;
   return (
     <NavigationContainer>
       <Stack.Navigator>
