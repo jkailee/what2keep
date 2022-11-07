@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon api_calls.js",
+    "start": "node api_calls.js",
     "lint": "eslint .",
     "coverage": "jest --collectCoverage"
   },
@@ -15,7 +15,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^6.7.0"
+    "mongoose": "^6.7.0",
+    "prettier": "^2.7.1"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
