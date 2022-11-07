@@ -9,3 +9,61 @@ test("Testing testing", async () => {
   const res = await myFunctions.testing();
   expect(res).toBe(true);
 });
+
+test("Testing registration", async () => {
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
+
+test("Testing login", async () => {
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
+
+test("Testing add an item", async () => {
+  //add the item
+
+  //then get it
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
+
+test("Testing update an item", async () => {
+  //update the item
+
+  //get the item
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
+
+test("Testing delete an item", async () => {
+  //delete the item
+
+  //try to get the item (and fail)
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
+
+test("Testing add an IMAGE", async () => {
+  //upload the image
+
+  //get the image
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
+
+test("Testing update an IMAGE", async () => {
+  //change the image
+
+  //get the changed image
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
+
+test("Testing delete an IMAGE", async () => {
+  //delete the image
+
+  //try to get the image (and fail)
+  const res = await myFunctions.testing();
+  expect(res).toBe(true);
+});
