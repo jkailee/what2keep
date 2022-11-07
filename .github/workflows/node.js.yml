@@ -8,13 +8,14 @@ on:
     branches: [ "ci/cd" ]
   pull_request:
     branches: [ "ci/cd" ]
-defaults:
-  run:
-    working-directory: ./expressjs-backend
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./expressjs-backend
 
     strategy:
       matrix:
