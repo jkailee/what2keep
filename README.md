@@ -1,6 +1,6 @@
 # What2Keep
 
-[![Backend CI](https://github.com/camilleparadis/what2keep/actions/workflows/node.js.yml/badge.svg?branch=ci%2Fcd)](https://github.com/camilleparadis/what2keep/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/camilleparadis/what2keep/actions/workflows/node.js.yml/badge.svg)](https://github.com/camilleparadis/what2keep/actions/workflows/node.js.yml)
 
 Code style:
 https://airbnb.io/javascript/react/
