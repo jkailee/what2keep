@@ -1,12 +1,13 @@
-const express = require("express");
+const express = require('express');
+
 const app = express();
-///const port = 5001;
-//const user_change = require("./user_services");
+// const port = 5001;
+// const user_change = require("./user_services");
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+app.get('/', (req, res) => {
+  res.send('Hello World!');
 });
 
 async function testing() {
@@ -60,8 +61,8 @@ async function testing() {
 //   res.status(201).send(result).end();
 // });
 
-// //implement to delete a user by id
-// //first see if that id exists and if it does remove it
+// // implement to delete a user by id
+// // first see if that id exists and if it does remove it
 // app.delete("/users/:id", async (req, res) => {
 //   const id = req.params["id"];
 //   const check = await user_change.findUserById(id);
