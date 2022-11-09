@@ -1,9 +1,9 @@
-const mongoose = require("mongoose");
-const userModel = require("./user");
-mongoose.set("debug", true);
+const mongoose = require('mongoose');
+const userModel = require('./user');
+mongoose.set('debug', true);
 
 mongoose
-  .connect("mongodb://localhost:27017/users", {
+  .connect('mongodb://localhost:27017/users', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
